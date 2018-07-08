@@ -1,0 +1,24 @@
+{
+  "name": "web-calc",
+  "version": "1.0.0",
+  "description": "A simple calculator written using Hyperapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "hyperapp-scripts",
+    "build": "hyperapp-scripts build",
+    "deploy": "gh-pages-deploy",
+    "clean-source": "rimraf README.md src webroot package.json"
+  },
+  "homepage": "/web-calc",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hyperapp": "^1.2.6"
+  },
+  "devDependencies": {
+    "cra-hyperapp": "^0.1.0",
+    "gh-pages-deploy": "^0.4.2"
+  }
+}
